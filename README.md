@@ -21,7 +21,7 @@ Internally Monolog still uses its own level scheme since it predates PSR-3.
 Install the latest version with
 
 ```bash
-$ composer require monolog/monolog
+$ composer require paylist/paylist
 ```
 
 ## Basic Usage
