@@ -29,16 +29,6 @@ $ composer require paylist/paylist
 ```php
 <?php
 
-use Monolog\Logger;
-use Monolog\Handler\StreamHandler;
-
-// create a log channel
-$log = new Logger('name');
-$log->pushHandler(new StreamHandler('path/to/your.log', Logger::WARNING));
-
-// add records to the log
-$log->addWarning('Foo');
-$log->addError('Bar');
 ```
 
 ## Documentation
@@ -82,8 +72,8 @@ Bugs and feature request are tracked on [GitHub](https://github.com/Seldaek/mono
 
 ### Author
 
-Jordi Boggiano - <j.boggiano@seld.be> - <http://twitter.com/seldaek><br />
-See also the list of [contributors](https://github.com/Seldaek/monolog/contributors) which participated in this project.
+liyee - <850030278@qq.com> - <https://liyee.github.io/><br />
+See also the list of [contributors](https://liyee.github.io/) which participated in this project.
 
 ### License
 
@@ -91,5 +81,5 @@ Monolog is licensed under the MIT License - see the `LICENSE` file for details
 
 ### Acknowledgements
 
-This library is heavily inspired by Python's [Logbook](http://packages.python.org/Logbook/)
+This library is heavily inspired by Python's [Logbook](https://liyee.github.io/)
 library, although most concepts have been adjusted to fit to the PHP world.
